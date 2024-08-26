@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 500px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    gap: 6px;
+}
+
+.main {
+    display: flex;
+    color: #FFF;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    padding: 50px 0;
+    
+}
+
+.left {
+    width: 350px;
+    
+}
+
+.right {
+    border: 1px solid white;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    
+ 
+}
+
+.text{
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+.nothing {
+    padding: 8px 16px;
+    background-color: #3882F6; 
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.second {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.random {
+    font-size: 32px;
+    font-weight: 800;
+    padding: 20px;
+    color: #1F2937;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.allphotos {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    padding-bottom: 50px;
+    
+
+}
+
+.info img {
+    border-radius: 20px;
+    border: 2px solid #1F2937;
+    margin-bottom: 8px;
+}
+
+.info .text {
+    display: flex;
+    text-wrap: wrap;
+    width :200px;
+    color: #686a6d;
+    margin: auto;
+
+}
+
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quote {
+    display: flex;
+    width: 500px;
+    flex: wrap;
+    font-size: 32px;
+    font-style: italic;
+    color: #4f5052;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.person {
+    margin-left: 350px;
+    font-weight: bold;
+}
+
+.forth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box {
+    margin: 100px;
+    padding: 40px;
+    background-color: #3882F6; 
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    border-radius: 10px;
+    color: white;
+}
+
+.leftt {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.words {
+    font-weight: bold;
+}
+
+.signup {
+    color: white;
+    border: 1px solid white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-weight: bold;
+}
+
+.footer {
+   text-align: center;
+   padding: 30px;
+   background-color: #1F2937;
+   color: white;
+   font-weight: lighter;
+}
